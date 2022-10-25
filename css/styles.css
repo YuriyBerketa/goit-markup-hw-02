@@ -13,16 +13,16 @@ body {
     background-color: var(--main-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
-    margin: 0;
+
 }
 .logo, .studio {
     text-decoration: none;
 }
 
-.navi-list, .connect-list, .benefits-section {
+.navi-list, .connect-list, .benefits-section, .port-link, .team-list, .add-list {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 /* .site-navigation, .navi link {
     list-style-type: none; */
@@ -59,9 +59,6 @@ color: var(--fourth-color);
         line-height: 1.14;
         letter-spacing: 0.02em;
 }
-/* .connect a:hover, .connect a:focus {
-    color: var(--third-color) */
-/* } */
 
 .main-content {
     background-color: var(--background-footer-color);
@@ -83,9 +80,6 @@ color: var(--fourth-color);
     font-size: 16px;
     line-height: 1.9;   
     text-align: center;
-
-.button-studio:hover {
-    
 }
 
 .benefits-title {
@@ -100,8 +94,8 @@ color: var(--fourth-color);
         font-size: 14px;
         line-height: 1.71;
 }
-.portfolio h2 {
-color: var(--first-color)
+.portf-title {
+color: var(--first-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
