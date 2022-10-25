@@ -10,22 +10,29 @@
     --footer-mail-tel-color: rgba(255, 255, 255, 0.6)
 }
 body {
-    background-color: var(--background-color);
+    background-color: var(--main-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     margin: 0;
 }
-a {
+.logo, .studio {
     text-decoration: none;
 }
-li {
-    list-style-type: none;
+
+.navi-list, .connect-list, .benefits-section {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
-.navi a {
+/* .site-navigation, .navi link {
+    list-style-type: none; */
+/* } */
+.navi-list, .connect-list {
 color: var(--first-color)
 }
 
-.navi a:hover, .navi a:focus {
+.navi-list:hover, .navi-list:focus,
+.connect-list:hover, .connect-list:focus {
     color: var(--third-color)
 }
 
@@ -45,45 +52,40 @@ color: var(--fourth-color);
     line-height: 1.2;
 }
 
-.connect a {
+.connect-list {
     color: var(--secondary-color);
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
 }
-.connect a:hover, .connect a:focus {
-    color: var(--third-color)
-}
+/* .connect a:hover, .connect a:focus {
+    color: var(--third-color) */
+/* } */
 
 .main-content {
     background-color: var(--background-footer-color);
-        color: var(--main-color);
+}
+.section-title {
+    color: var(--main-color);
         font-weight: 900;
         font-size: 44px;
         line-height: 1.4;
         text-align: center;
         letter-spacing: 0.06em;
-}
 
+}
 .button-studio {
     cursor: pointer;
-    background-color: var(--background-secondary-color);
-    color: var(--first-color);    
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;   
-    text-align: center;
-}
-
-.button-studio:hover, .button-studio:focus {
-    cursor: pointer;
     background-color: var(--third-color);
-    color: var(--main-color);
-    font-weight: 500;
+    color: var(--main-color);    
+    font-weight: 700;
     font-size: 16px;
-    line-height: 1.63;
+    line-height: 1.9;   
     text-align: center;
+
+.button-studio:hover {
+    
 }
 
 .benefits-title {
@@ -92,7 +94,7 @@ color: var(--fourth-color);
     font-size: 14px;
     line-height: 1.14;
 }
-.benefits-list {
+.benefits-text {
     color: var(--secondary-color);
         font-weight: 400;
         font-size: 14px;
