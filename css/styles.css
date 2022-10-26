@@ -93,7 +93,10 @@ text-align: center;
         letter-spacing: 0.06em;
 }
 
-
+/* .button-link {
+    display: block;
+    float: left;
+} */
 
 .button-link {
     cursor: pointer;
@@ -201,6 +204,9 @@ color: var(--first-color);
     font-size: 0;
 }
 
+.port-nav {
+    margin: 0px;
+}
 .sorting {
     color: var(--first-color);      
         font-weight: 700;
